@@ -1,1 +1,0 @@
-/home/claude/Chat2_Node2.5_Instruction_Test2Step2_CameraUpload.md
