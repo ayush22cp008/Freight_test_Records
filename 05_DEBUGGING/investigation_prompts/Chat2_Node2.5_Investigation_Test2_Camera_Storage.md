@@ -34,6 +34,9 @@ Test 1 (`navigator.geolocation`) is already **PASS / LOCKED** and must not be re
 7. **Do not use production `Freight_Records`; inspect only the throwaway `freight-core-test` environment.**
 8. **Do not expose or print secrets, service-role keys, private credentials, or sensitive environment-variable values.** Report only variable names/configuration presence where necessary.
 9. Keep the investigation limited to Test 2.
+10. **Save your complete investigation result to exactly:** `05_DEBUGGING/investigations/Chat2_Node2.5_Investigation_Test2_Camera_Storage.md`
+11. The result file above is an **investigation report**, not a test result. Do **not** save it under `04_TESTING/test_results/` and do **not** create any PASS/FAIL result file at this stage.
+12. After saving the investigation report, report the exact saved path and commit/change identifier to Ayush.
 
 ---
 
@@ -230,5 +233,11 @@ If implementation is required, say exactly what is missing, but **do not impleme
 This investigation is a **fact-finding checkpoint**, not an implementation task.
 
 Do not edit files, do not claim the test passed, and do not move to Test 3.
+
+Save the complete result to:
+
+`05_DEBUGGING/investigations/Chat2_Node2.5_Investigation_Test2_Camera_Storage.md`
+
+Then tell Ayush that the investigation result has been saved and provide the exact path and commit/change identifier.
 
 Return the report to Ayush so the reasoning brain can decide the next step.
